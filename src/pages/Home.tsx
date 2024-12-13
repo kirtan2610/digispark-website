@@ -11,7 +11,7 @@ export function Home() {
     <div className="bg-black text-white">
       {/* Hero Section */}
       <section className="min-h-screen flex items-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/Logo.f.jpg')] bg-cover bg-center opacity-45" />
+        <div className="absolute inset-0 bg-[url('https://www.bedigitech.com/img/social-media-marketing.jpg')] bg-cover bg-center opacity-10 grayscale" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export function Home() {
             >
               <span className="text-golden">Transform</span> Your Digital Presence
               <br />
-              With
+              With Us
             </motion.h1>
 
             <motion.p 
@@ -38,10 +38,7 @@ export function Home() {
             >
               <br />
               <br />
-              <br />
-              <br />
-              <br />
-              <br />
+             
               We are a team of passionate marketers whose goal is to improve
               everyone's life through disruptive products. We build great
               products to solve your business problems.
@@ -88,7 +85,7 @@ export function Home() {
               {
                 icon: <Rocket className="text-golden" size={40} />,
                 title: 'Digital Strategy',
-              },
+                  },
               {
                 icon: <Target className="text-golden" size={40} />,
                 title: 'Social Media Marketing',

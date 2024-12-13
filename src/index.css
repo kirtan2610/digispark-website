@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 768px) {
+  .mobile\:bg-center-25 {
+    background-position: center 25% !important;
+  }
+}

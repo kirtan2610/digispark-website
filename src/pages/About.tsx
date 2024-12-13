@@ -13,7 +13,7 @@ export function About() {
         <div 
           className="absolute inset-0"
           style={{ 
-            backgroundImage: "url('/aboutus.jpg')",
+            backgroundImage: "url('/Logo.f.svg')",
             backgroundPosition: '50% 50%',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
