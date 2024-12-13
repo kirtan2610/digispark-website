@@ -27,9 +27,19 @@ export function About() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
+            <br />
+            <br />
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               About <span className="text-golden">DigiSpark</span>
             </h1>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <p className="text-xl md:text-2xl mb-8 text-gray-300">
               Igniting Digital Success Stories Since 2024
             </p>
