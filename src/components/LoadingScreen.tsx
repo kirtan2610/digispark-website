@@ -6,16 +6,16 @@ export function LoadingScreen() {
     <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
       <div className="text-center">
         <motion.img 
-          src="/Logo.f.svg"
+          src="/Loading.svg"
           alt="DigiSpark Loading"
-          className="h-32 w-auto mb-8"
+           className="h-72 md:h-96 lg:h-[500px] w-auto mb-8"
           animate={{ 
-            scale: [1, 1.2, 1],
-            opacity: [0.7, 1, 0.7]
+            scale: [1, 1.1, 1],
+            opacity: [0.8, 1, 0.8]
           }}
           transition={{ 
             repeat: Infinity,
-            duration: 2,
+            duration: 2.5,
             ease: "easeInOut"
           }}
         />
@@ -23,9 +23,9 @@ export function LoadingScreen() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="text-golden text-lg"
+          className="text-golden text-3xl md:text-3xl"
         >
-          Loading...
+          Where Ideas Spark into Action.
         </motion.div>
       </div>
     </div>
